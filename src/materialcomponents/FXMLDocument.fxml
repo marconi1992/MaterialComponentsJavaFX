@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import materialcomponents.widgets.EditText?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import java.io.File?>
+<AnchorPane  fx:id="anchorPane"  prefWidth="500"    xmlns:fx="http://javafx.com/fxml/1" fx:controller="materialcomponents.FXMLDocumentController">
+    <VBox  spacing="8" AnchorPane.bottomAnchor="16"  AnchorPane.topAnchor="16"  AnchorPane.leftAnchor="16"  AnchorPane.rightAnchor="16">
+        <children>
+            <EditText hint="Nombre de Usuario" icon="@img/image.svg"/>
+            <EditText prompText="Nombre de Usuario" disable="true" />
+            <EditText passwordField="true" prompText="Contraseña"/>
+            <EditText passwordField="true" hint="Contraseña"/>
+            <EditText textArea="true" prompText="Contraseña"/>
+            <EditText textArea="true" hint="Contraseña"/>
+
+        </children>
+
+    </VBox>
+
+</AnchorPane>
+

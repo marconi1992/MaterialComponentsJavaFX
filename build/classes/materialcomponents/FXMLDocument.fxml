@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import materialcomponents.widgets.*?>
+<VBox spacing="8"    xmlns:fx="http://javafx.com/fxml/1" fx:controller="materialcomponents.FXMLDocumentController">
+    <children>
+        
+        <EditTextOriginal hint="Contraseña" text="Valor" passwordField="true"   />
+        <EditTextOriginal hint="Nombre de Usuario" text="Valor" passwordField="true"   />
+        <EditTextOriginal hint="Descripcion" text="Valor" textArea="true"  />
+    </children>
+    <padding>
+        <javafx.geometry.Insets  top="16" right="16" bottom="16" left="16"   />
+    </padding>
+</VBox>
+
