@@ -30,7 +30,7 @@ To create a simple text field is necessary add a "hint" attribute with the conte
 ![alt text](https://lh3.googleusercontent.com/NP5ebivSx40VkSmXFPk_nsX9HZlDhjd91kqtwCSlU_-EHboQit0Qt_ZusOkPES8bFv46RdXJIl2Uda2C1KVEwF-XC7ueRG8BMOnsDbOBHjJAUzcw8As1gZMUMQnjXtwcnScjIiIHlq7yyhzKi5iEHlP4m2epTYATxDXfNhOP9AolCnA4nJaGUtkHlTnIHJ2U5CunDgXzTqjTtdrhXj_JhIVFiVia9ajbQ3WoW_4cQgKDPvak4Wc5hL_wvd7W1v-Ont0Eebxb_wlU5YQN9uh7qKmxOzOoJXwIrsAT_cLydBN9EX5OL0U_jAU8qtkpRP66jillADMYOZ5VO1_C9Y-m7UokOt3zSsgXulD1L2xhK4EOHhu0zeITSEUki0WjACK4giV7YViiYqHgDYWDqH0Q_e5oCKv6NoqJfDn6M2kJ9i_yzi9X1wr1LdDw0FPE9txfr1yxU5wJgTxgj7iiG7ydKiLwhwZbP0YbhLTPMkWT0Y1MH89Rz6PogEoWJaYTJ50amlNYxQoLQobQBxcqkDM7vA=w491-h283-no "Single Line")
 
 Both support a simple and floating label , to create a text area its  textArea attribute must be set true , in the same way to create a Password Field the passwordField attribute must be set true
-```
+```html
 <EditText passwordField="true" prompText="Contraseña"/>
 <EditText passwordField="true" hint="Contraseña"/>
 <EditText textArea="true" prompText="Descripción"/>
@@ -40,7 +40,7 @@ Both support a simple and floating label , to create a text area its  textArea a
 ![alt text](https://lh3.googleusercontent.com/pZmhxgXmElVhtSJXW4lmS9sFhbV9HdME1v_uSw5vRpVgD4MGZaKNDORwfEjyNQJomNf_Nn3xeuWPbpkiAKUR9oBMoG6vr3eceVKJODOOIyQlc1yTOb7r8ja3m7Apq6kBGIAVZ-AO4C7lv9R7GJw1NQzBia34EFf31wh56-jmmhrNox8nn_Oj6QWuTejom8iZUMdI0Vl1DOyDfTM2Jf7_2db1fA9DTJ-99Dd_ETTjPlHVQAJXo5bDkx2HrKcMt7o9mH4C3gJUuasmrm2-opZ4D3Ztl3rHzBgc1X18sy4TryirvSuHv4dedPzbLtaujmQy33RH90DY9vVJYoik1MxH2QyWk13ZW0vlgFm0Vrfq9iIoUORqInyY8P1ig1N1BSF8BAejqhe9Q634cepX7qqNGnGTScKS0YgGAS3A-2ZDgBUQmqI95R9clXLaY_Gpa2i70vBycJVTtSnWIZpy3tp_g91DMCpE6pPPYzshVeu9UFeyxh1AJCVBxIdk1XzyokzzzgsOz5QznpNsv1gAWRcj8w=w582-h300-no "Single Line")
 
 To create a Icon in the text field  in the "icon" attribute must be  set the path from the svg file
-```
+```html
 <EditText hint="Nombre de Usuario" icon="@img/image.svg" />
 ```
 
