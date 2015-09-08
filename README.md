@@ -20,7 +20,7 @@ To create a simple text field is necessary add a "prompText" attribute with the 
 <EditText prompText="Nombre de Usuario"  />
 ```
 ###Floating Label
-![alt text](https://lh3.googleusercontent.com/VSfhtTF1ORvWkQoiI3j9XlxqtoOZZ2Ls37xdeAp-eMCR7AFimTn2gu87YkYjmkfQyPXdr_ywFf5iAbvG_k3kiCGZn8lekdK7AfV1cZrYUf2xwLKn8BODtHKfSfSnu9ZjKWfUZZ0VR8nTNkf02ILIFu82GfZoxAeabyG--8Pt8H9iaPUyXBfJRcR0sz09RJloWs9zmlJtOF8e_WsJXe5c2c_bAjfniNvXID4AisIqpVgb8vf_NHFv7SnisA8CMsXJ-anRiAKKc2fOSJRWwVw-YA7tQSKUbONudXzO9EdOd0404Zx9GqRYtsOKYV2V95oWRU8anW56G8-W4Km1tK6Ik-UfS-IsOEWCff88bqMB9fl405IQ_9AmA26DGfZ6Xnec63w5Hw9UOkLayx6_GEN82t7WSy4YTE0yJxEwRezUQI4U2qFyiXLDW_Rj9av9yKFvDTh7sq8l4_4aWZnbgwkYdSMsB80rL-MwTDywQF_oM8e0l4tq_KrZ2vRYRzXlQyfFaOEVjw07jOQ-pDZjkteD4Q=w583-h230-no "Single Line")
+![Float Label](https://lh3.googleusercontent.com/GAnMk_WUzY7R9W9U2PbpIJp8ZjQ08KWAZhUZIzdV0Rqfm9B620mWGAyBPEjePesKZKIVzmFEXXHtxKp2EwfSjwXkrsxv8jV9ItO2lvzFH2dOYS2KKoII8yi26wuIgJP2zmIuL-oEGvIZtGsY5o239eBDDY5vPO3UiFkZWvB4L2dRS_mfCaNZC21Hu6EhZRqYpiiyqw4pg0V8tQKfDNkoCEDUfBrf6iybIpsXQPm6RZCRvACoBZ-2GaBe8kZTWW8Ct5UG9GKTpVEdL20lR3jgBrhxYh-jttrzo_nn_pTBxFA5cC1J-fBkFhirp5szp_lvOP8LcSIArEFwrjy8-Ue45Sn0d10QPVHT2FndVtTUXr1wtsHlg9iiou9bc8O33FLbqeCdM1i0ftsS10xws5ZbMOH7mj8J8UTL_txQLUTGR4-I4OdogWThC33ClyWweF-QXL4HHWe_un_2vPFZBeQGGIaOqh0kp30MmKkNvo53iAa-a6lfpjnUbOR8x5-Hf49cGEaU0iw2bUt-jnFGvAc54g=w583-h230-no)
 
 To create a simple text field is necessary add a "hint" attribute with the content.
 ```html
@@ -43,5 +43,6 @@ To create a Icon in the text field  in the "icon" attribute must be  set the pat
 ```
 <EditText hint="Nombre de Usuario" icon="@img/image.svg" />
 ```
+
 
 
